@@ -1,0 +1,27 @@
+var number_img = 1;
+
+function img_changer_add(){
+    var img = document.getElementById("img");
+
+    
+    if(number_img <3){
+        number_img +=1;
+    }else{
+        number_img = 3
+    }
+
+    img.src = "salsicha" + number_img + ".jfif";
+}
+
+function img_changer_sub(){
+    var img = document.getElementById("img");
+
+    
+    if(number_img > 1){
+        number_img -=1;
+    }else{
+        number_img = 1
+    }
+
+    img.src = "salsicha" + number_img + ".jfif";
+}
