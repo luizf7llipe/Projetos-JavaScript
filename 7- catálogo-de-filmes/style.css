@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: grey;
+    height: 100vh; 
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px)
+}
+
+#filme{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#filme:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+#filme img{
+    height: 300px;
+    width: 200px;
+}
+
+#filme p{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
